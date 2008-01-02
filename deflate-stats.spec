@@ -8,6 +8,7 @@ URL:		http://prefetch.net/code/deflate-stats.html
 Source0:	http://prefetch.net/code/deflate-stats.pl.bz2
 Requires:	apache-mod_deflate
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 deflate-stats.pl is a Perl script that summarizes mod_deflate log data, and
