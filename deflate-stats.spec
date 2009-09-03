@@ -1,7 +1,7 @@
 Summary:	Apache mod_deflate logfile analyzer
 Name:		deflate-stats
 Version:	1.0
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	BSD-like
 Group:		Monitoring
 URL:		http://prefetch.net/code/deflate-stats.html
