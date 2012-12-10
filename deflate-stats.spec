@@ -36,3 +36,33 @@ install -m0755 %{name} %{buildroot}%{_bindir}/%{name}
 %attr(0755,root,root) %{_bindir}/%{name}
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0-5mdv2011.0
++ Revision: 617525
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 1.0-4mdv2010.0
++ Revision: 427959
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 1.0-3mdv2009.0
++ Revision: 244025
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.0-1mdv2008.1
++ Revision: 140721
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Dec 22 2006 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdv2007.0
++ Revision: 101638
+- Import deflate-stats
+
+* Wed Aug 23 2006 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdv2007.0
+- initial Mandriva package
+
