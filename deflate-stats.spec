@@ -4,7 +4,7 @@ Version:	1.0
 Release:	6
 License:	BSD-like
 Group:		Monitoring
-URL:		http://prefetch.net/code/deflate-stats.html
+URL:		https://prefetch.net/code/deflate-stats.html
 Source0:	http://prefetch.net/code/deflate-stats.pl.bz2
 Requires:	apache-mod_deflate
 BuildArch:	noarch
